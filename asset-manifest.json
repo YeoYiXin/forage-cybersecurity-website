@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/forage-cybersecurity-website/static/css/main.1bcb9c01.css",
+    "main.js": "/forage-cybersecurity-website/static/js/main.471cad6c.js",
+    "static/js/787.0950f3a9.chunk.js": "/forage-cybersecurity-website/static/js/787.0950f3a9.chunk.js",
+    "static/media/pagePic.png": "/forage-cybersecurity-website/static/media/pagePic.48f24bdcfed9be4876ef.png",
+    "static/media/commbank-favicon.png": "/forage-cybersecurity-website/static/media/commbank-favicon.c5cb316cf4cf68df4ee8.png",
+    "index.html": "/forage-cybersecurity-website/index.html",
+    "main.1bcb9c01.css.map": "/forage-cybersecurity-website/static/css/main.1bcb9c01.css.map",
+    "main.471cad6c.js.map": "/forage-cybersecurity-website/static/js/main.471cad6c.js.map",
+    "787.0950f3a9.chunk.js.map": "/forage-cybersecurity-website/static/js/787.0950f3a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bcb9c01.css",
+    "static/js/main.471cad6c.js"
+  ]
+}
