@@ -4,7 +4,7 @@ import TipsContent from "./TipsContent";
 const SecurityTips = () => {
   return (
     <>
-      <div className="shadow-lg w-10/12 mt-5 bg-beige px-2 py-5 md:px-5 mb-7 md:mb-10">
+      <div className="shadow-lg w-10/12 mt-5 bg-beige px-2 py-7 md:px-5 mb-7 md:mb-15">
         <h1 className="font-bold text-xl py-3 md:text-2xl md:py-5 lg:text-4xl mx-2">
           3 Essential Financial Cybersecurity Practices
         </h1>
