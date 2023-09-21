@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import NavBar from "./NavBar";
+import Info from "./Info";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const toggleSearch = () => {
+    setSearchOpen(!searchOpen);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container overflow-hidden bg-beige">
+      <NavBar onMenuToggle={toggleMenu} onSearchToggle={toggleSearch} />
+      {menuOpen && (
+        <div className="menu-overlay" onClick={toggleMenu} />
+      )}
+      {searchOpen && (
+        <div className="search-overlay" onClick={toggleSearch} />
+      )}
+      <Info/>
     </div>
   );
 }
